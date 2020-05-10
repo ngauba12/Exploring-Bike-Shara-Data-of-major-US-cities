@@ -194,13 +194,6 @@ def display_data(df):
             end_display = input("Do you wish to continue?: ").lower()
             if end_display == 'no':
                 break
-            
-        
-        
-                
-    
-  
-
 
 
 def main():
