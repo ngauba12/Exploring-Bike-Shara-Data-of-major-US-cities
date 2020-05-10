@@ -1,12 +1,11 @@
-# Exploring-Bike-Shara-Data-of-major-US-cities
 # Python Script to Explore US Bikeshare Data
-This Python script is written for Project 2 (Term 1) of Udacity's Data Analyst Nanodegree (DAND) and is used to explore data related to bike share systems for Chicago, New York City, and Washington. It imports data from csv files and compute descriptive statistics from the data. It also takes in users' raw input to create an interactive experience in the terminal to present these statistics.
+This Python script is written for Project 2 of Udacity's Programming for Data Science with Python Nanodegree Program and is used to explore data related to bike share systems for Chicago, New York City, and Washington. It imports data from csv files and compute descriptive statistics from the data. It also takes in users' raw input to create an interactive experience in the terminal to present these statistics.
 
 ## How to run the script
 You can run the script using a Python integrated development environment (IDE) such as Spyder. To install Spyder, you will need to [download the Anaconda installer](https://www.anaconda.com/download/). This script is written in Python 3, so you will need the Python 3.x version of the installer. After downloading and installing Anaconda, you will find the Spyder IDE by opening Anaconda Navigator.
 
 ## Datasets
-The datasets used for this script contain bike share data for the first six months of 2017. Some data wrangling has been performed by Udacity's staff before being provided to the students of DAND. Under the permission of Udacity, I have uploaded a copy of the datasets [here](https://drive.google.com/open?id=16FfhNDfAh0DvTIRw9r0plmWZlHPEcBa4). The file sizes are too big to be uploaded on GitHub, so they were uploaded on Google Drive instead. After downloading the datasets, place them in the same folder with this Python script.
+The datasets used for this script contain bike share data for the first six months of 2017. Some data wrangling has been performed by Udacity's staff before being provided to the students. Under the permission of Udacity, I have uploaded a copy of the datasets with the project. After downloading the datasets, place them in the same folder with this Python script.
 
 The data is provided by [Motivate](https://www.motivateco.com/), which is a bike share system provider for many cities in the United States. The data files for all three cities contain the same six columns:
 * Start Time
@@ -73,6 +72,3 @@ Concatenate strings of two columns:
 Set column widths:
 * https://pandas.pydata.org/pandas-docs/stable/options.html
 * https://pandas.pydata.org/pandas-docs/stable/generated/pandas.set_option.html
-
-Other pandas and numpy functions:
-* Lessons in the Introduction to Data Analysis section of Udacity's Data Aanalyst Nanodegree (DAND)
